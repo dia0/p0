@@ -1,0 +1,3 @@
+/root/.bash_history/ //bash history (or /home/.bash_history/)
+
+
