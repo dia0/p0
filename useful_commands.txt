@@ -9,7 +9,7 @@ tcpdump -vn -i eth0 host HOST_SRC and HOST_DEST
 
 [+] Host
 
-Show all records
+All records
 host -t any google.com
 
 Select record type
@@ -23,6 +23,11 @@ MX = Mail
 NS = Name Server
 PTR = Reverse zone (map IP to name)
 SOA = Main record
+
+[+] Zone Transfer
+
+Domain records (www, ns, mx, ftp, etc)
+cat /etc/bind/db.site.com.br
 
 [+] Remove text using sed
 
