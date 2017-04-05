@@ -15,6 +15,15 @@ host -t any google.com
 Select record type
 host -t mx google.com
 
+A = IPV4
+AAAA = IPV6
+CNAME = Alias
+HINFO = Host Information
+MX = Mail
+NS = Name Server
+PTR = Reverse zone (map IP to name)
+SOA = Main record
+
 [+] Remove text using sed
 
 cat SSL_Hosts.txt | sed -r 's/\ttcp\t/:/g'
