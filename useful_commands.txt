@@ -3,6 +3,10 @@ Useful commands
 [+] Hex, ASCII, Base64
 echo -e <HEX>
 
+[+] Network Analyzer
+wiresark
+tcpdump -vn -i eth0 host HOST_SRC and HOST_DEST
+
 [+] Remove text using sed
 
 cat SSL_Hosts.txt | sed -r 's/\ttcp\t/:/g'
