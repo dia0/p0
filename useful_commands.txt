@@ -1,5 +1,7 @@
 Useful commands
 ---------------
+[+] Hex, ASCII, Base64
+echo -e <HEX>
 
 [+] Remove text using sed
 
