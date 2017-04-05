@@ -7,6 +7,14 @@ echo -e <HEX>
 wiresark
 tcpdump -vn -i eth0 host HOST_SRC and HOST_DEST
 
+[+] Host
+
+Show all records
+host -t any google.com
+
+Select record type
+host -t mx google.com
+
 [+] Remove text using sed
 
 cat SSL_Hosts.txt | sed -r 's/\ttcp\t/:/g'
